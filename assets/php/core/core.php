@@ -1,3 +1,3 @@
 <?php
-$domainName = $_SERVER['SERVER_NAME'];
+$domainName = "https://" . $_SERVER['SERVER_NAME'];
 ?>
