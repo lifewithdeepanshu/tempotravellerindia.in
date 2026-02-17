@@ -1,0 +1,70 @@
+/* Section Header (Reusable Everywhere) */
+.fleet-intro-section .fleet-intro-intro-label {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #ffc107;
+  margin-bottom: 10px;
+}
+
+.fleet-intro-section {
+  background: linear-gradient(180deg, #f8f9fa, #ffffff);
+  position: relative;
+  padding: 80px 0;
+}
+
+.fleet-intro-section .fleet-intro-title {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.fleet-intro-section .fleet-intro-title span {
+  color: #ffc107;
+}
+
+.fleet-intro-section .fleet-intro-desc {
+  font-size: 16px;
+  color: #666;
+  max-width: 520px;
+}
+
+.fleet-intro-section .fleet-intro-card {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(8px);
+  padding: 35px 30px;
+  border-radius: 18px;
+  height: 100%;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+  transition: all 0.35s ease;
+  position: relative;
+}
+
+.fleet-intro-section .fleet-intro-card:hover {
+  transform: translateY(-10px);
+}
+
+.fleet-intro-section .fleet-intro-icon {
+  font-size: 34px;
+  margin-bottom: 15px;
+}
+
+.fleet-intro-section .fleet-intro-card h5 {
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.fleet-intro-section .fleet-intro-card p {
+  color: #666;
+  margin: 0;
+}
+
+.fleet-intro-section .fleet-intro-card.highlight {
+  background: linear-gradient(135deg, #ffc107, #ffb300);
+  color: #111;
+}
+
+.fleet-intro-section .fleet-intro-card.highlight p {
+  color: #222;
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<destinations>
+
+  <destination>
+    <title>Delhi to Jaipur</title>
+    <image>image.jpg</image>
+    <alt>Tempo Traveller to Jaipur</alt>
+    <routeLink>/delhi-to-jaipur-tempo-traveller.html</routeLink>
+    <duration>5–6 Hours</duration>
+    <group>Family / Group</group>
+    <rating>4.8</rating>
+    <badge>
+      <icon>sun</icon>
+      <text>Weekend Trip</text>
+    </badge>
+    <whatsappText>Hi, I want to book Delhi to Jaipur Tempo Traveller</whatsappText>
+  </destination>
+
+  <destination>
+    <title>Delhi to Rishikesh</title>
+    <image>image.jpg</image>
+    <alt>Tempo Traveller to Rishikesh</alt>
+    <routeLink>/delhi-to-rishikesh-tempo-traveller.html</routeLink>
+    <duration>6–7 Hours</duration>
+    <group>Spiritual / Nature</group>
+    <rating>4.9</rating>
+    <badge>
+      <icon>water</icon>
+      <text>Spiritual Trip</text>
+    </badge>
+    <whatsappText>Hi, I want to book Delhi to Rishikesh Tempo Traveller</whatsappText>
+  </destination>
+
+  <destination>
+    <title>Delhi to Vaishno Devi</title>
+    <image>image.jpg</image>
+    <alt>Tempo Traveller to Vaishno Devi</alt>
+    <routeLink>/delhi-to-vaishno-devi-tempo-traveller.html</routeLink>
+    <duration>12–14 Hours</duration>
+    <group>Pilgrimage</group>
+    <rating>4.8</rating>
+    <badge>
+      <icon>heart-fill</icon>
+      <text>Pilgrimage</text>
+    </badge>
+    <whatsappText>Hi, I want to book Delhi to Vaishno Devi Tempo Traveller</whatsappText>
+  </destination>
+
+</destinations>

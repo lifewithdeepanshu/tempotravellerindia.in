@@ -1,0 +1,45 @@
+.booking-modal {
+  border-radius: 16px;
+  padding: 10px;
+}
+
+/* Title */
+.booking-modal .modal-title {
+  font-weight: 600;
+  color: var(--primary);
+}
+
+/* Labels */
+.booking-modal .form-label {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Inputs */
+.booking-modal .form-control {
+  border-radius: 10px;
+  padding: 12px;
+  border: 1px solid #e5e7eb;
+}
+
+.booking-modal .form-control:focus {
+  border-color: var(--secondary);
+  box-shadow: none;
+}
+
+/* Input Icons */
+.booking-modal .input-group-text {
+  background: #f1f5f9;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px 0 0 10px;
+  color: var(--primary);
+}
+
+/* attractive */
+.booking-modal .btn-form {
+    background: linear-gradient(135deg, var(--accent));
+    color: #fff;
+    border: none;
+    border-radius: 14px;
+    transition: all 0.3s ease;
+}

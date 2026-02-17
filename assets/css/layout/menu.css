@@ -1,0 +1,78 @@
+.main-navbar {
+  background: #ffffff;
+  padding: 14px 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.main-navbar .logo {
+  width: 183.75px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.main-navbar .nav-link {
+  font-weight: 500;
+  color: var(--text-dark);
+  padding: 10px 14px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.main-navbar .nav-link:hover,
+.main-navbar .nav-link.active {
+  color: var(--secondary);
+}
+
+.main-navbar .dropdown-menu {
+  border-radius: 12px;
+  padding: 8px;
+  border: none;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.main-navbar .dropdown-item {
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 14px;
+}
+
+.main-navbar .dropdown-item:hover {
+  background: var(--secondary);
+  color: #ffffff;
+}
+
+/* CTA Base */
+.main-navbar .btn-cta {
+    background: linear-gradient(135deg, #ff7a18, #ff9f1c);
+    color: #fff;
+    border: none;
+    border-radius: 14px;
+    transition: all 0.3s ease;
+}
+
+.main-navbar .btn-cta:hover {
+    background: linear-gradient(135deg, #ff9f1c, #ff7a18);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(255, 122, 24, 0.35);
+    color: #fff;
+}
+
+/* WhatsApp Button */
+.main-navbar .btn-whatsapp {
+    background: linear-gradient(135deg, #25D366, #1ebe5d);
+    color: #fff;
+    border: none;
+    border-radius: 14px;
+    transition: all 0.3s ease;
+}
+
+.main-navbar .btn-whatsapp:hover {
+    background: linear-gradient(135deg, #1ebe5d, #25D366);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(37, 211, 102, 0.35);
+    color: #fff;
+}
+
+.main-navbar .navbar-toggler:focus {
+  box-shadow: none;
+}

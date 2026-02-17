@@ -1,0 +1,91 @@
+.individual-service {
+    background: #ffffff;
+}
+
+.individual-service .service-image {
+    position: relative;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 25px 60px rgba(0,0,0,0.12);
+}
+
+.individual-service .service-image img {
+    transition: transform 0.5s ease;
+}
+
+.individual-service .service-image:hover img {
+    transform: scale(1.06);
+}
+
+.individual-service .image-badge {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: linear-gradient(135deg, #0d6efd, #6610f2);
+    color: #fff;
+    padding: 8px 18px;
+    border-radius: 50px;
+    font-size: 13px;
+}
+
+.individual-service .service-tag {
+    display: inline-block;
+    background: rgba(13,110,253,0.1);
+    color: #0d6efd;
+    padding: 8px 18px;
+    border-radius: 50px;
+    font-size: 14px;
+}
+
+.individual-service .service-title {
+    font-size: 38px;
+    font-weight: 800;
+}
+
+.individual-service .service-desc {
+    font-size: 17px;
+    opacity: 0.9;
+    max-width: 600px;
+}
+
+.individual-service .service-features {
+    list-style: none;
+    padding: 0;
+}
+
+.individual-service .service-features li {
+    margin-bottom: 12px;
+    font-size: 15px;
+}
+
+.individual-service .service-features i {
+    color: #0d6efd;
+    margin-right: 8px;
+}
+
+.individual-service .service-ideal h6 {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.individual-service .service-ideal span {
+    display: inline-block;
+    background: #f1f4ff;
+    color: #0d6efd;
+    padding: 6px 14px;
+    border-radius: 50px;
+    font-size: 13px;
+    margin: 5px 8px 0 0;
+}
+
+.individual-service .service-cta .btn {
+    border-radius: 50px;
+    padding: 12px 30px;
+}
+
+/* Mobile Optimization */
+@media (max-width: 768px) {
+    .individual-service .service-title {
+        font-size: 30px;
+    }
+}

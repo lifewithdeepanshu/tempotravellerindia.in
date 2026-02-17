@@ -1,0 +1,73 @@
+.simple-content {
+  padding: 60px 15px;
+  background: #ffffff;
+}
+
+.simple-content .container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.simple-content a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.simple-content a:hover {
+  text-decoration: underline;
+}
+
+.simple-content h2 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.simple-content h3 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.simple-content p {
+  line-height: 1.7;
+  color: #555;
+}
+
+.simple-content ul {
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+
+.simple-content li {
+  margin-bottom: 6px;
+}
+
+/* Scrollable Table */
+.simple-content .table-responsive {
+  overflow-x: auto;
+  margin-top: 15px;
+}
+
+.simple-content .pricing-table {
+  width: 100%;
+  min-width: 600px;
+  border-collapse: collapse;
+}
+
+.simple-content .pricing-table th,
+.simple-content .pricing-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+.simple-content .pricing-table th {
+  background: #f5f5f5;
+  font-weight: 600;
+}
+
+.simple-content .note {
+  font-size: 14px;
+  margin-top: 10px;
+  color: #777;
+}

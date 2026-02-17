@@ -1,0 +1,65 @@
+
+/* About-Home */
+.about-home {
+  padding: 70px 0;
+  background: #f8f9fa;
+}
+
+.about-home .about-image img {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+}
+
+.about-home .section-badge {
+  display: inline-block;
+  background: rgba(255, 193, 7, 0.15);
+  color: #b38600;
+  padding: 6px 14px;
+  border-radius: 50px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.about-home .section-title {
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.about-home .section-title span {
+  color: #ffc107;
+}
+
+.about-home .section-text {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.7;
+}
+
+.about-home .about-features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+}
+
+.about-home .about-features i {
+  color: #ffc107;
+  margin-right: 6px;
+}
+
+.about-home .about-btn {
+  border-radius: 50px;
+  padding: 12px 30px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .about-home {
+    padding: 50px 0;
+  }
+
+  .about-home .section-title {
+    font-size: 28px;
+  }
+}

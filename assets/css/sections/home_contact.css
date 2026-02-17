@@ -1,0 +1,71 @@
+.contact-section {
+    background: linear-gradient(180deg, #f7fbff, #ffffff);
+}
+
+.contact-section .contact-info,
+.contact-section .contact-form {
+    background: #fff;
+    border-radius: 22px;
+    padding: 35px;
+    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section .contact-item {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 22px;
+}
+
+.contact-section .contact-icon {
+    width: 52px;
+    height: 52px;
+    border-radius: 14px;
+    color: #fff;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-section .contact-item span {
+    font-size: 14px;
+    color: #6c757d;
+}
+
+.contact-section .contact-item a {
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+}
+
+.contact-section .contact-points {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.contact-section .contact-points li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.contact-section .contact-points i {
+    color: #0d6efd;
+}
+
+.contact-section .contact-form .form-control,
+.contact-section .contact-form .form-select {
+    padding: 14px 16px;
+    border-radius: 14px;
+    font-size: 15px;
+}
+
+.contact-section .contact-form .form-control:focus,
+.contact-section .contact-form .form-select:focus {
+    box-shadow: none;
+    border-color: #25D366;
+}

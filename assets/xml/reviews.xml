@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reviews>
+  <review>
+    <name>Amit Sharma</name>
+    <location>Delhi</location>
+    <rating>5</rating>
+    <message>
+      Excellent tempo traveller service. Clean interiors, comfortable seats,
+      and professional driver. Truly premium experience.
+    </message>
+  </review>
+
+  <review>
+    <name>Neha Gupta</name>
+    <location>Gurgaon</location>
+    <rating>4.5</rating>
+    <message>
+      Smooth booking process and excellent support.
+      Best choice for family and group travel.
+    </message>
+  </review>
+
+  <review>
+    <name>Rahul Verma</name>
+    <location>Faridabad</location>
+    <rating>4</rating>
+    <message>
+      Very reliable and punctual service.
+      Vehicle quality and driver behaviour were excellent.
+    </message>
+  </review>
+</reviews>

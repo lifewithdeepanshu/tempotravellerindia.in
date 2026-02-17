@@ -1,0 +1,51 @@
+.sticky-cta {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #ffffff;
+  border-top: 1px solid #e5e7eb;
+  display: flex;
+  justify-content: space-around;
+  padding: 8px 0;
+  z-index: 1050;
+}
+
+/* CTA Buttons */
+.sticky-cta .cta-btn {
+  flex: 1;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  background: transparent;
+  font-size: 13px;
+  color: var(--text-dark);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+/* Icons */
+.sticky-cta .cta-btn i {
+  font-size: 20px;
+}
+
+/* Specific Colors */
+.sticky-cta .cta-btn.call i {
+  color: var(--secondary);
+}
+
+.sticky-cta .cta-btn.form i {
+  color: var(--accent);
+}
+
+.sticky-cta .cta-btn.whatsapp i {
+  color: #25D366;
+}
+
+/* Tap Feedback */
+.sticky-cta .cta-btn:active {
+  background: #f1f5f9;
+}

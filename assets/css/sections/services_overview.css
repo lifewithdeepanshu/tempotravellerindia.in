@@ -1,0 +1,100 @@
+.services-overview {
+    background: #f8f9fc;
+}
+
+.services-overview .section-badge {
+    display: inline-block;
+    background: rgba(13,110,253,0.1);
+    color: #0d6efd;
+    padding: 8px 18px;
+    border-radius: 50px;
+    font-size: 14px;
+}
+
+.services-overview .section-title {
+    font-size: 42px;
+    font-weight: 800;
+}
+
+.services-overview .section-title span {
+    color: #0d6efd;
+}
+
+.services-overview .section-desc {
+    max-width: 600px;
+    margin: auto;
+    font-size: 17px;
+    opacity: 0.85;
+}
+
+.services-overview .service-card {
+    background: rgba(255,255,255,0.75);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 35px 30px;
+    height: 100%;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+    transition: all 0.35s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.services-overview .service-card::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, #0d6efd, #6610f2);
+    top: 0;
+    left: 0;
+}
+
+.services-overview .service-card:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 25px 55px rgba(0,0,0,0.12);
+}
+
+.services-overview .service-icon {
+    width: 65px;
+    height: 65px;
+    background: linear-gradient(135deg, #0d6efd, #6610f2);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.services-overview .service-card h4 {
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.services-overview .service-card p {
+    font-size: 15px;
+    opacity: 0.85;
+    margin-bottom: 18px;
+}
+
+.services-overview .service-link {
+    font-weight: 600;
+    color: #0d6efd;
+    text-decoration: none;
+}
+
+.services-overview .service-link i {
+    transition: transform 0.3s ease;
+}
+
+.services-overview .service-link:hover i {
+    transform: translateX(6px);
+}
+
+/* Mobile Optimization */
+@media (max-width: 768px) {
+    .services-overview .section-title {
+        font-size: 32px;
+    }
+}

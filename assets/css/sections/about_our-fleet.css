@@ -1,0 +1,110 @@
+.our-fleet {
+  background: linear-gradient(180deg, #f8f9ff, #ffffff);
+}
+
+.our-fleet .section-badge {
+  display: inline-block;
+  background: rgba(13, 110, 253, 0.1);
+  color: #0d6efd;
+  padding: 8px 18px;
+  border-radius: 50px;
+  font-size: 14px;
+}
+
+.our-fleet .fleet-card {
+    background: #fff;
+    border-radius: 22px;
+    overflow: hidden;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
+    transition: all 0.35s ease;
+    height: 100%;
+  }
+
+  .our-fleet .fleet-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 35px 70px rgba(0, 0, 0, 0.15);
+  }
+
+  .our-fleet .fleet-img {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .our-fleet .fleet-img img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+  }
+
+  .our-fleet .fleet-card:hover .our-fleet .fleet-img img {
+    transform: scale(1.08);
+  }
+
+  .our-fleet .fleet-badge {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: #0d6efd;
+    color: #fff;
+    padding: 6px 14px;
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: 600;
+  }
+
+  .our-fleet .fleet-badge.luxury {
+    background: linear-gradient(135deg, #ffc107, #ff9800);
+    color: #000;
+  }
+
+  .our-fleet .fleet-body {
+    padding: 25px;
+  }
+
+  .our-fleet .fleet-body h5 {
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+
+  .our-fleet .fleet-body ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px;
+  }
+
+  .our-fleet .fleet-body ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 8px;
+  }
+
+  .our-fleet .fleet-body ul i {
+    color: #0d6efd;
+  }
+
+  .our-fleet .fleet-btn {
+    display: inline-block;
+    background: #0d6efd;
+    color: #fff;
+    padding: 10px 26px;
+    border-radius: 50px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+
+  .our-fleet .fleet-btn:hover {
+    background: #002b8f;
+    color: #fff;
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .our-fleet .fleet-img img {
+      height: 200px;
+    }
+  }

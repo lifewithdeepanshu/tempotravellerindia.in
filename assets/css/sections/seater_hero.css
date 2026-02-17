@@ -1,0 +1,121 @@
+.seater-hero {
+  position: relative;
+  min-height: 100vh;
+  background: url("/image.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.seater-hero .hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    120deg,
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.4)
+  );
+}
+
+.seater-hero .hero-content {
+  position: relative;
+  max-width: 720px;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+}
+
+.seater-hero .hero-badge {
+  display: inline-block;
+  background: linear-gradient(90deg, #ffb703, #fb8500);
+  color: #000;
+  padding: 8px 16px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.seater-hero .hero-content h1 {
+  font-size: 42px;
+  line-height: 1.2;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.seater-hero .hero-content h1 span {
+  color: #ffb703;
+}
+
+.seater-hero .hero-content p {
+  font-size: 16px;
+  opacity: 0.9;
+  margin-bottom: 25px;
+}
+
+.seater-hero .hero-btns {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.seater-hero .btn-call,
+.seater-hero .btn-whatsapp {
+  padding: 14px 26px;
+  border-radius: 50px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.seater-hero .btn-call {
+  background: linear-gradient(135deg, #ffb703, #fb8500);
+  color: #000;
+}
+
+.seater-hero .btn-whatsapp {
+  background: linear-gradient(135deg, #25d366, #1ebe5d);
+  color: #fff;
+}
+
+.seater-hero .btn-call:hover,
+.seater-hero .btn-whatsapp:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.seater-hero .hero-highlights {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.seater-hero .hero-highlights div {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 10px 16px;
+  border-radius: 30px;
+  font-size: 14px;
+  backdrop-filter: blur(6px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-content {
+    padding: 30px 20px;
+  }
+
+  .hero-content h1 {
+    font-size: 30px;
+  }
+
+  .hero-btns {
+    flex-direction: column;
+  }
+
+  .btn-call,
+  .btn-whatsapp {
+    text-align: center;
+  }
+}

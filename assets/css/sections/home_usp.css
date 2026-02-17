@@ -1,0 +1,63 @@
+.usp-section {
+    background: linear-gradient(180deg, #ffffff, #f6f9ff);
+}
+
+.usp-section .usp-card {
+    background: #fff;
+    border-radius: 18px;
+    padding: 30px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+    transition: all 0.4s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.usp-section .usp-card::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, #0d6efd, #6610f2);
+    opacity: 0;
+    transition: 0.4s;
+    z-index: 0;
+}
+
+.usp-section .usp-card:hover::after {
+    opacity: 0.05;
+}
+
+.usp-section .usp-card:hover {
+    transform: translateY(-10px);
+}
+
+.usp-section .usp-icon {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #0d6efd, #6610f2);
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 18px;
+    position: relative;
+    z-index: 1;
+}
+
+.usp-section .usp-card h5,
+.usp-section .usp-card p {
+    position: relative;
+    z-index: 1;
+}
+
+.usp-section .usp-card h5 {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.usp-section .usp-card p {
+    font-size: 15px;
+    color: #6c757d;
+    line-height: 1.6;
+}

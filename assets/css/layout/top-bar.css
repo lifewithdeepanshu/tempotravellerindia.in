@@ -1,0 +1,17 @@
+.top-bar {
+  background: var(--primary);
+  color: var(--white);
+  font-size: 13px;
+  padding: 6px 0;
+}
+
+.top-bar a {
+  color: var(--white);
+  margin-left: 18px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.top-bar a:hover {
+  color: var(--accent);
+}

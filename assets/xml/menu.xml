@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+  <item>
+    <title>Home</title>
+    <link>/</link>
+  </item>
+  <item>
+    <title>About</title>
+    <link>/about</link>
+  </item>
+  <item>
+    <title>Services</title>
+    <link>/services</link>
+  </item>
+  <item>
+    <title>We Serve In</title>
+    <submenu>
+      <item>
+        <title>Tempo Traveller in Delhi</title>
+        <link>#delh</link>
+      </item>
+      <item>
+        <title>Tempo Traveller in Gurgaon</title>
+        <link>#gurgaon</link>
+      </item>
+    </submenu>
+  </item>
+  <item>
+    <title>Fleet</title>
+    <submenu>
+      <item>
+        <title>9 Seater Tempo Traveller</title>
+        <link>/9-seater-tempo-traveller</link>
+      </item>
+      <item>
+        <title>12 Seater Tempo Traveller</title>
+        <link>#12seater</link>
+      </item>
+    </submenu>
+  </item>
+  <item>
+    <title>Blog</title>
+    <link>/blog</link>
+  </item>
+  <item>
+    <title>Contact</title>
+    <link>/contact</link>
+  </item>
+  <cta>
+    <call>9999029051</call>
+    <whatsapp>919999029051</whatsapp>
+  </cta>
+</menu>

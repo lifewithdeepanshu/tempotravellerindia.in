@@ -1,0 +1,100 @@
+.lux-testimonial {
+  background: radial-gradient(circle at top, #eef3ff, #f9fbff);
+  position: relative;
+  overflow: hidden;
+}
+
+.lux-testimonial .lux-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 16px;
+  border-radius: 50px;
+  background: linear-gradient(135deg, #0d6efd, #6610f2);
+  color: #fff;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.lux-testimonial .lux-border {
+  padding: 1.5px;
+  border-radius: 24px;
+  background: linear-gradient(135deg, #0d6efd, #6610f2);
+  height: 100%;
+}
+
+.lux-testimonial .lux-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  border-radius: 22px;
+  padding: 32px;
+  position: relative;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s ease;
+}
+
+.lux-testimonial .lux-border:hover .lux-testimonial .lux-card {
+  transform: translateY(-10px);
+  box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
+}
+
+
+.lux-testimonial .lux-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
+}
+
+.lux-testimonial .lux-quote {
+  position: absolute;
+  top: -18px;
+  right: 25px;
+  background: linear-gradient(135deg, #0d6efd, #6610f2);
+  color: #fff;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+}
+
+.lux-testimonial .lux-stars i {
+  color: #ffc107;
+  font-size: 1.05rem;
+}
+
+.lux-testimonial .lux-text {
+  font-size: 1.03rem;
+  color: #444;
+  line-height: 1.65;
+  margin-bottom: 26px;
+}
+
+.lux-testimonial .lux-user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.lux-testimonial .lux-avatar {
+  width: 46px;
+  height: 46px;
+  background: linear-gradient(135deg, #0d6efd, #6610f2);
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+}
+
+/* Mobile polish */
+@media (max-width: 576px) {
+  .lux-testimonial .lux-card {
+    padding: 26px;
+  }
+  .lux-testimonial .lux-text {
+    font-size: 0.96rem;
+  }
+}

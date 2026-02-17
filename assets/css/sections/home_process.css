@@ -1,0 +1,72 @@
+.process-section .process-section {
+    background: linear-gradient(180deg, #f9fbff, #ffffff);
+}
+
+.process-section .process-card {
+    background: #fff;
+    border-radius: 20px;
+    padding: 35px 25px;
+    text-align: center;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+    position: relative;
+    transition: all 0.4s ease;
+    overflow: hidden;
+}
+
+.process-section .process-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, #0d6efd, #6610f2);
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.process-section .process-card:hover::before {
+    opacity: 0.05;
+}
+
+.process-section .process-card:hover {
+    transform: translateY(-10px);
+}
+
+.step-circle {
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(135deg, #0d6efd, #6610f2);
+    color: #fff;
+    border-radius: 50%;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 15px;
+    position: relative;
+    z-index: 1;
+}
+
+.process-section .process-icon {
+    font-size: 36px;
+    color: #0d6efd;
+    margin-bottom: 15px;
+    position: relative;
+    z-index: 1;
+}
+
+.process-section .process-card h5,
+.process-section .process-card p {
+    position: relative;
+    z-index: 1;
+}
+
+.process-section .process-card h5 {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.process-section .process-card p {
+    font-size: 15px;
+    color: #6c757d;
+    line-height: 1.6;
+}

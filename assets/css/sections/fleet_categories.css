@@ -1,0 +1,110 @@
+.fleetCategories {
+    padding: 90px 0;
+    background: linear-gradient(180deg, #ffffff, #f8f9fa);
+}
+
+/* Header */
+.fleetCategories .fleetLabel {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #ffc107;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.fleetCategories .fleetHeading {
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+
+.fleetCategories .fleetSubtext {
+    max-width: 720px;
+    margin: auto;
+    color: #666;
+}
+
+/* Card */
+.fleetCategories .fleetTypeCard {
+    position: relative;
+    height: 420px;
+    border-radius: 22px;
+    overflow: hidden;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.12);
+    transition: all 0.4s ease;
+}
+
+.fleetCategories .fleetTypeCard img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.6s ease;
+}
+
+/* Overlay */
+.fleetCategories .fleetOverlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg,
+            rgba(0, 0, 0, 0.15),
+            rgba(0, 0, 0, 0.75));
+}
+
+/* Content */
+.fleetCategories .fleetCardContent {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    right: 30px;
+    color: #fff;
+    z-index: 2;
+}
+
+.fleetCategories .fleetCardContent h3 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.fleetCategories .fleetCardContent p {
+    font-size: 15px;
+    margin: 8px 0 18px;
+    opacity: 0.9;
+}
+
+/* Button */
+.fleetCategories .fleetBtn {
+    display: inline-block;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    padding: 10px 18px;
+    border-radius: 30px;
+    font-size: 14px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.fleetCategories .fleetBtn:hover {
+    background: #ffc107;
+    color: #111;
+    border-color: #ffc107;
+}
+
+/* Hover Effects */
+.fleetCategories .fleetTypeCard:hover {
+    transform: translateY(-12px);
+}
+
+.fleetCategories .fleetTypeCard:hover img {
+    transform: scale(1.08);
+}
+
+@media (max-width: 767px) {
+    .fleetCategories .fleetHeading {
+        font-size: 28px;
+    }
+
+    .fleetCategories .fleetTypeCard {
+        height: 360px;
+    }
+}

@@ -1,0 +1,31 @@
+.faq-section {
+    background: linear-gradient(180deg, #f8fbff, #ffffff);
+}
+
+.faq-section .faq-accordion .accordion-item {
+    border: none;
+    border-radius: 14px;
+    margin-bottom: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+    overflow: hidden;
+}
+
+.faq-section .faq-accordion .accordion-button {
+    font-weight: 600;
+    padding: 18px 20px;
+}
+
+.faq-section .faq-accordion .accordion-button:not(.collapsed) {
+    background: linear-gradient(135deg, #0d6efd, #6610f2);
+    color: #fff;
+}
+
+.faq-section .faq-accordion .accordion-button:focus {
+    box-shadow: none;
+}
+
+.faq-section .faq-accordion .accordion-body {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.7;
+}

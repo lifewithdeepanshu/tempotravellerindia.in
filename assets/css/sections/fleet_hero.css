@@ -1,0 +1,34 @@
+.fleet-hero {
+  background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+  position: relative;
+}
+
+.fleet-hero .fleet-hero .hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  z-index: 0;
+}
+
+.fleet-hero .container {
+  position: relative;
+  z-index: 1;
+}
+
+.fleet-hero .hero-highlights span {
+  background: rgba(255,255,255,0.1);
+  padding: 8px 14px;
+  border-radius: 30px;
+  font-size: 14px;
+}
+
+.fleet-hero .hero-vehicle-img {
+  max-height: 420px;
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}

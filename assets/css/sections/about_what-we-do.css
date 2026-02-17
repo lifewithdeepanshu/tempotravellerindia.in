@@ -1,0 +1,43 @@
+.what-we-do {
+  background: #ffffff;
+}
+
+.what-we-do .service-card {
+  background: #f9fbff;
+  border-radius: 20px;
+  padding: 35px 25px;
+  text-align: center;
+  height: 100%;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
+.what-we-do .service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 30px 60px rgba(0,0,0,0.12);
+}
+
+.what-we-do .service-card i {
+  font-size: 2.5rem;
+  color: #0d6efd;
+  margin-bottom: 15px;
+}
+
+.what-we-do .service-card h5 {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.what-we-do .service-card p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .what-we-do .service-card {
+    padding: 30px 20px;
+  }
+}
+

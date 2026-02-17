@@ -1,0 +1,85 @@
+.service-areas {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #f8f9fa, #eef3f9);
+}
+
+.service-areas .section-heading .sub-title {
+  display: inline-block;
+  background: #ffb703;
+  padding: 6px 16px;
+  border-radius: 50px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.service-areas .section-heading h2 {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.service-areas .section-heading p {
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto 40px;
+}
+
+.service-areas .areas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  align-content: center;
+  gap: 25px;
+}
+
+.service-areas .area-card {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #000;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.service-areas .area-card h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.service-areas .area-card p {
+  font-size: 14px;
+  color: #555;
+}
+
+.service-areas .area-card::before {
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 0;
+  background: linear-gradient(135deg, #ffb703, #fb8500);
+  bottom: 0;
+  left: -10%;
+  transition: 0.4s ease;
+  z-index: 0;
+}
+
+.service-areas .area-card:hover::before {
+  height: 100%;
+}
+
+.service-areas .area-card:hover {
+  color: #fff;
+  transform: translateY(-8px);
+}
+
+.service-areas .area-card:hover p {
+  color: #fff;
+}
+
+.service-areas .area-card > * {
+  position: relative;
+  z-index: 1;
+}
