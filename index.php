@@ -1,5 +1,5 @@
 <?php
-// include 'assets/php/core/core.php';
+include 'assets/php/core/core.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
