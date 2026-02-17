@@ -5,14 +5,74 @@ include 'assets/php/core/core.php';
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Tempo Traveller India - Luxury Tempo Traveller on Rent in Delhi NCR</title>
-    <meta name="description"
-        content="Book premium tempo traveller rental services in Delhi NCR. Safe, comfortable & affordable travel solutions for family tours, corporate trips, weddings & outstation journeys. Contact us for best prices and reliable service.">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/pages/index.css">
+  <!-- Basic Setup -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Primary SEO -->
+  <title>Tempo Traveller on Rent in Delhi NCR | 9, 12, 16, 20 Seater Booking</title>
+
+  <meta name="description" content="Book tempo traveller on rent in Delhi, Noida, Gurgaon, Ghaziabad & Faridabad. 9, 12, 16, 20 seater luxury tempo traveller with driver for local & outstation trips at best price.">
+
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="<?php echo $domainName; ?>/">
+
+  <!-- Author & Branding -->
+  <meta name="author" content="Your Brand Name">
+  <meta name="publisher" content="Your Brand Name">
+
+  <!-- Open Graph (Facebook, WhatsApp, LinkedIn) -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Best Tempo Traveller in Delhi NCR | Luxury & Affordable Rental">
+  <meta property="og:description" content="Hire 9 to 20 seater tempo traveller in Delhi NCR with professional driver. Perfect for family trips, weddings & corporate tours.">
+  <meta property="og:url" content="<?php echo $domainName; ?>">
+  <meta property="og:image" content="<?php echo $domainName; ?>/assets/images/home-hero.jpg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Tempo Traveller Rental in Delhi NCR">
+  <meta name="twitter:description" content="Affordable luxury tempo traveller booking for outstation & local trips.">
+  <meta name="twitter:image" content="<?php echo $domainName; ?>/assets/images/home-hero.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  <!-- Performance -->
+   <link rel="icon" href="/favicon.ico" />
+<link rel="preload" href="/assets/css/pages/index.css" as="style">
+
+  <!-- Structured Data (Local Business + Service Schema) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Your Brand Name",
+    "image": "<?php echo $domainName; ?>/assets/images/home-hero.jpg",
+    "url": "<?php echo $domainName; ?>",
+    "telephone": "+91-9999029051",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Delhi NCR",
+      "addressCountry": "IN"
+    },
+    "areaServed": [
+      "Delhi",
+      "Noida",
+      "Gurgaon",
+      "Ghaziabad",
+      "Faridabad"
+    ],
+    "priceRange": "₹₹",
+    "serviceOffered": {
+      "@type": "Service",
+      "name": "Tempo Traveller Rental",
+      "description": "9, 12, 16 and 20 seater tempo traveller on rent with driver for local and outstation trips."
+    }
+  }
+  </script>
+
 </head>
 
 <body>
