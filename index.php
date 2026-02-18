@@ -41,7 +41,8 @@ include 'assets/php/core/core.php';
 
   <!-- Performance -->
    <link rel="icon" href="/favicon.ico" />
-<link rel="preload" href="/assets/css/pages/index.css" as="style">
+    <link rel="preload" href="/assets/css/pages/index.css" as="style">
+    <link rel="stylesheet" href="/assets/css/pages/index.css">
 
   <!-- Structured Data (Local Business + Service Schema) -->
   <script type="application/ld+json">
