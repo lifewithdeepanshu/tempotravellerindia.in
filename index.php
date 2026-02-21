@@ -81,41 +81,7 @@ include 'assets/php/core/core.php';
 
     <?php include 'assets/php/layout/top-bar.php'; ?>
 
-    <nav class="navbar navbar-expand-lg main-navbar sticky-top">
-        <div class="container">
-
-            <!-- Logo -->
-            <a class="navbar-brand" href="/">
-                <img src="/logo.jpg" alt="Tempo Traveller India" class="logo">
-            </a>
-
-            <!-- Mobile Toggle (No Border) -->
-            <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="offcanvas"
-                data-bs-target="#mobileMenu">
-                <i class="bi bi-list fs-1"></i>
-            </button>
-
-            <!-- Desktop Menu -->
-            <div class="collapse navbar-collapse" id="mainNavbar">
-                <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2" id="desktopMenuContainer"></ul>
-            </div>
-
-
-        </div>
-    </nav>
-
-    <!-- Mobile Menu Offcanvas -->
-    <div class="main-navbar offcanvas offcanvas-start" id="mobileMenu">
-        <div class="offcanvas-header">
-            <img src="/logo.jpg" class="logo">
-            <button class="btn-close shadow-none" data-bs-dismiss="offcanvas"></button>
-        </div>
-        <div class="offcanvas-body" id="mobileMenuContainer"></div>
-    </div>
-
-    <!-- <button class="btn btn-cta" data-bs-toggle="modal" data-bs-target="#bookingModal">
-        <i class="bi bi-calendar-check"></i> Book Tempo Traveller
-    </button> -->
+    <?php include 'assets/php/layout/menu.php'; ?>
 
     <section class="hero-section">
         <div class="container">

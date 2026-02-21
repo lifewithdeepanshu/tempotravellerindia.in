@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Tempo Traveller India</title>
+    <title>Services</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Custom CSS -->
@@ -11,158 +11,11 @@
 </head>
 
 <body>
-    <div class="modal fade" id="bookingModal" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered modal-lg">
-            <div class="modal-content booking-modal">
+    <?php include 'assets/php/components/pop-out-form.php'; ?>
 
-                <!-- Header -->
-                <div class="modal-header border-0">
-                    <h5 class="modal-title">
-                        <i class="bi bi-bus-front"></i> Book Your Tempo Traveller
-                    </h5>
-                    <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal"></button>
-                </div>
+    <?php include 'assets/php/layout/top-bar.php'; ?>
 
-                <!-- Body -->
-                <div class="modal-body">
-
-                    <form id="bookingForm">
-
-                        <div class="row g-3">
-
-                            <input type="text" name="company" style="display:none">
-                            <input type="hidden" name="page_url" value="">
-                            <input type="hidden" name="csrf_token" id="csrf_token">
-
-
-                            <!-- Name -->
-                            <div class="col-md-6">
-                                <label class="form-label">Full Name</label>
-                                <div class="input-group">
-                                    <span class="input-group-text"><i class="bi bi-person"></i></span>
-                                    <input type="text" name="name" class="form-control" placeholder="Enter your name"
-                                        required>
-                                </div>
-                            </div>
-
-                            <!-- Phone -->
-                            <div class="col-md-6">
-                                <label class="form-label">Phone Number</label>
-                                <div class="input-group">
-                                    <span class="input-group-text"><i class="bi bi-telephone"></i></span>
-                                    <input type="tel" name="phone" class="form-control" placeholder="Enter phone number"
-                                        required>
-                                </div>
-                            </div>
-
-                            <!-- From -->
-                            <div class="col-md-6">
-                                <label class="form-label">From (Pickup Location)</label>
-                                <div class="input-group">
-                                    <span class="input-group-text"><i class="bi bi-geo-alt"></i></span>
-                                    <input type="text" name="pickup" class="form-control" placeholder="Pickup location">
-                                </div>
-                            </div>
-
-                            <!-- To -->
-                            <div class="col-md-6">
-                                <label class="form-label">To (Destination)</label>
-                                <div class="input-group">
-                                    <span class="input-group-text"><i class="bi bi-flag"></i></span>
-                                    <input type="text" name="destination" class="form-control"
-                                        placeholder="Destination">
-                                </div>
-                            </div>
-
-                            <!-- Start Date -->
-                            <div class="col-md-6">
-                                <label class="form-label">Start Travel Date</label>
-                                <div class="input-group">
-                                    <span class="input-group-text"><i class="bi bi-calendar-event"></i></span>
-                                    <input type="date" name="start_date" class="form-control">
-                                </div>
-                            </div>
-
-                            <!-- End Date -->
-                            <div class="col-md-6">
-                                <label class="form-label">End Travel Date</label>
-                                <div class="input-group">
-                                    <span class="input-group-text"><i class="bi bi-calendar-check"></i></span>
-                                    <input type="date" name="end_date" class="form-control">
-                                </div>
-                            </div>
-
-                            <!-- Passengers -->
-                            <div class="col-md-12">
-                                <label class="form-label">Number of Passengers</label>
-                                <div class="input-group">
-                                    <span class="input-group-text"><i class="bi bi-people"></i></span>
-                                    <input type="number" name="passengers" class="form-control" placeholder="e.g. 12">
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <!-- Submit -->
-                        <div class="mt-4 text-center">
-                            <button type="submit" class="btn btn-form px-5">
-                                <i class="bi bi-send"></i> Submit Enquiry
-                            </button>
-                        </div>
-
-                    </form>
-
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <div class="top-bar">
-        <div class="container d-flex justify-content-between align-items-center">
-            <span><i class="bi bi-geo-alt"></i> Delhi NCR</span>
-            <div class="top-actions">
-                <a href="tel:9999029051">
-                    <i class="bi bi-telephone"></i> 9999029051
-                </a>
-                <a href="https://wa.me/919999029051" class="whatsapp">
-                    <i class="bi bi-whatsapp"></i> WhatsApp
-                </a>
-            </div>
-        </div>
-    </div>
-
-    <nav class="navbar navbar-expand-lg main-navbar sticky-top">
-        <div class="container">
-
-            <!-- Logo -->
-            <a class="navbar-brand" href="/">
-                <img src="/logo.jpg" alt="Tempo Traveller India" class="logo">
-            </a>
-
-            <!-- Mobile Toggle (No Border) -->
-            <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="offcanvas"
-                data-bs-target="#mobileMenu">
-                <i class="bi bi-list fs-1"></i>
-            </button>
-
-            <!-- Desktop Menu -->
-            <div class="collapse navbar-collapse" id="mainNavbar">
-                <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2" id="desktopMenuContainer"></ul>
-            </div>
-
-
-        </div>
-    </nav>
-
-    <!-- Mobile Menu Offcanvas -->
-    <div class="main-navbar offcanvas offcanvas-start" id="mobileMenu">
-        <div class="offcanvas-header">
-            <img src="/logo.jpg" class="logo">
-            <button class="btn-close shadow-none" data-bs-dismiss="offcanvas"></button>
-        </div>
-        <div class="offcanvas-body" id="mobileMenuContainer"></div>
-    </div>
+    <?php include 'assets/php/layout/menu.php'; ?>
 
     <section class="services-hero position-relative overflow-hidden">
         <div class="container">
@@ -333,66 +186,294 @@
 
     <section class="individual-service py-5" id="outstationService">
         <div class="container">
-
             <div class="row align-items-center g-5">
 
-                <!-- Service Image -->
                 <div class="col-lg-6">
                     <div class="service-image">
-                        <img src="image.jpg" class="img-fluid" alt="Outstation Tempo Traveller Service">
-                        <span class="image-badge">
-                            Popular Service
-                        </span>
+                        <img src="image.jpg" class="img-fluid" alt="Outstation Travel Service">
+                        <span class="image-badge">Most Booked</span>
                     </div>
                 </div>
 
-                <!-- Service Content -->
                 <div class="col-lg-6">
-                    <span class="service-tag">
-                        🚐 Our Service
-                    </span>
-
-                    <h2 class="service-title mt-3">
-                        Outstation Tempo Traveller Service
-                    </h2>
+                    <span class="service-tag">🚐 Our Service</span>
+                    <h2 class="service-title mt-3">Outstation Travel</h2>
 
                     <p class="service-desc mt-3">
-                        Travel long distances with complete comfort and peace of mind. Our outstation
-                        services are designed for families, corporate groups, and tourists who value
-                        safety, punctuality, and transparent pricing.
+                        Plan your long-distance journeys with comfort and reliability.
+                        Our outstation travel service ensures safe rides, professional drivers,
+                        and well-maintained vehicles for family trips, pilgrimages, and group vacations.
                     </p>
 
-                    <!-- Features -->
                     <ul class="service-features mt-4">
-                        <li><i class="bi bi-check-circle-fill"></i> Spacious & well-maintained vehicles</li>
-                        <li><i class="bi bi-check-circle-fill"></i> Experienced & verified drivers</li>
-                        <li><i class="bi bi-check-circle-fill"></i> Flexible pickup & drop locations</li>
-                        <li><i class="bi bi-check-circle-fill"></i> No hidden charges</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Comfortable seating for long journeys</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Verified & experienced drivers</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Flexible pickup & drop</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Transparent pricing</li>
                     </ul>
 
-                    <!-- Ideal For -->
                     <div class="service-ideal mt-4">
                         <h6>Ideal For:</h6>
                         <span>Family Trips</span>
-                        <span>Corporate Tours</span>
                         <span>Pilgrimages</span>
-                        <span>Group Vacations</span>
+                        <span>Hill Stations</span>
+                        <span>Weekend Getaways</span>
                     </div>
 
-                    <!-- CTA Buttons -->
                     <div class="service-cta mt-4">
-                        <a href="tel:9999029051" class="btn btn-primary btn-lg me-3 mb-2">
-                            <i class="bi bi-telephone-fill"></i> Call Now
-                        </a>
-                        <a href="https://wa.me/919999029051" class="btn btn-outline-primary btn-lg mb-2">
-                            <i class="bi bi-whatsapp"></i> WhatsApp
-                        </a>
-                    </div>
+                        <div class="cta-buttons">
 
+                            <a href="tel:9999029051" class="cta-btn call-btn">
+                                <i class="bi bi-telephone-fill"></i>
+                                <span>Call</span>
+                            </a>
+
+                            <a href="/contact" class="cta-btn book-btn">
+                                <i class="bi bi-calendar-check"></i>
+                                <span>Book</span>
+                            </a>
+
+                            <a href="https://wa.me/919999029051" class="cta-btn whatsapp-btn">
+                                <i class="bi bi-whatsapp"></i>
+                                <span>WhatsApp</span>
+                            </a>
+
+                        </div>
+                    </div>
                 </div>
 
             </div>
+        </div>
+    </section>
 
+    <section class="individual-service py-5" id="corporateService">
+        <div class="container">
+            <div class="row align-items-center g-5 flex-lg-row-reverse">
+
+                <div class="col-lg-6">
+                    <div class="service-image">
+                        <img src="image.jpg" class="img-fluid" alt="Corporate Travel Service">
+                        <span class="image-badge">Professional Service</span>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <span class="service-tag">🏢 Business Travel</span>
+                    <h2 class="service-title mt-3">Corporate Travel</h2>
+
+                    <p class="service-desc mt-3">
+                        Reliable and punctual transportation for corporate meetings,
+                        team outings, conferences, and client visits. We ensure
+                        professionalism, comfort, and timely arrivals.
+                    </p>
+
+                    <ul class="service-features mt-4">
+                        <li><i class="bi bi-check-circle-fill"></i> On-time guaranteed service</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Clean & executive vehicles</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Corporate billing support</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Dedicated customer support</li>
+                    </ul>
+
+                    <div class="service-ideal mt-4">
+                        <h6>Ideal For:</h6>
+                        <span>Corporate Events</span>
+                        <span>Team Outings</span>
+                        <span>Client Meetings</span>
+                        <span>Office Transfers</span>
+                    </div>
+
+                    <div class="service-cta mt-4">
+                        <a href="tel:9999029051" class="btn btn-primary btn-lg me-3 mb-2">
+                            Call Now
+                        </a>
+                        <a href="https://wa.me/919999029051" class="btn btn-outline-primary btn-lg mb-2">
+                            WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="individual-service py-5" id="groupTourService">
+        <div class="container">
+            <div class="row align-items-center g-5">
+
+                <div class="col-lg-6">
+                    <div class="service-image">
+                        <img src="image.jpg" class="img-fluid" alt="Group Tours Service">
+                        <span class="image-badge">Best for Groups</span>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <span class="service-tag">👨‍👩‍👧‍👦 Travel Together</span>
+                    <h2 class="service-title mt-3">Group Tours</h2>
+
+                    <p class="service-desc mt-3">
+                        Enjoy hassle-free travel with your friends, family, or colleagues.
+                        Our spacious tempo travellers are perfect for group tours, ensuring
+                        comfort, safety, and fun throughout the journey.
+                    </p>
+
+                    <ul class="service-features mt-4">
+                        <li><i class="bi bi-check-circle-fill"></i> Large seating capacity</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Ample luggage space</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Music system & AC</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Affordable group pricing</li>
+                    </ul>
+
+                    <div class="service-ideal mt-4">
+                        <h6>Ideal For:</h6>
+                        <span>School Trips</span>
+                        <span>Friends Tours</span>
+                        <span>Religious Tours</span>
+                        <span>Adventure Trips</span>
+                    </div>
+
+                    <div class="service-cta mt-4">
+                        <a href="tel:9999029051" class="btn btn-primary btn-lg me-3 mb-2">Call Now</a>
+                        <a href="https://wa.me/919999029051" class="btn btn-outline-primary btn-lg mb-2">WhatsApp</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="individual-service py-5" id="airportService">
+        <div class="container">
+            <div class="row align-items-center g-5 flex-lg-row-reverse">
+
+                <div class="col-lg-6">
+                    <div class="service-image">
+                        <img src="image.jpg" class="img-fluid" alt="Airport Transfer Service">
+                        <span class="image-badge">24/7 Available</span>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <span class="service-tag">✈️ On-Time Pickup</span>
+                    <h2 class="service-title mt-3">Airport Transfers</h2>
+
+                    <p class="service-desc mt-3">
+                        Get timely pickups and drops for domestic and international flights.
+                        Our airport transfer service ensures punctuality, comfort, and stress-free travel.
+                    </p>
+
+                    <ul class="service-features mt-4">
+                        <li><i class="bi bi-check-circle-fill"></i> Flight tracking support</li>
+                        <li><i class="bi bi-check-circle-fill"></i> 24/7 availability</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Professional drivers</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Clean & sanitized vehicles</li>
+                    </ul>
+
+                    <div class="service-ideal mt-4">
+                        <h6>Ideal For:</h6>
+                        <span>Airport Pickup</span>
+                        <span>Airport Drop</span>
+                        <span>Business Travelers</span>
+                        <span>Family Transfers</span>
+                    </div>
+
+                    <div class="service-cta mt-4">
+                        <a href="tel:9999029051" class="btn btn-primary btn-lg me-3 mb-2">Call Now</a>
+                        <a href="https://wa.me/919999029051" class="btn btn-outline-primary btn-lg mb-2">WhatsApp</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="individual-service py-5" id="weddingService">
+        <div class="container">
+            <div class="row align-items-center g-5">
+
+                <div class="col-lg-6">
+                    <div class="service-image">
+                        <img src="image.jpg" class="img-fluid" alt="Wedding & Events Service">
+                        <span class="image-badge">Premium Service</span>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <span class="service-tag">💍 Special Occasions</span>
+                    <h2 class="service-title mt-3">Wedding & Events</h2>
+
+                    <p class="service-desc mt-3">
+                        Make your special occasions smooth and memorable with our reliable
+                        transport service for weddings, parties, and events.
+                    </p>
+
+                    <ul class="service-features mt-4">
+                        <li><i class="bi bi-check-circle-fill"></i> Well-decorated vehicles</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Bulk booking available</li>
+                        <li><i class="bi bi-check-circle-fill"></i> On-time coordination</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Professional support</li>
+                    </ul>
+
+                    <div class="service-ideal mt-4">
+                        <h6>Ideal For:</h6>
+                        <span>Weddings</span>
+                        <span>Engagements</span>
+                        <span>Corporate Events</span>
+                        <span>Family Functions</span>
+                    </div>
+
+                    <div class="service-cta mt-4">
+                        <a href="tel:9999029051" class="btn btn-primary btn-lg me-3 mb-2">Call Now</a>
+                        <a href="https://wa.me/919999029051" class="btn btn-outline-primary btn-lg mb-2">WhatsApp</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="individual-service py-5" id="localService">
+        <div class="container">
+            <div class="row align-items-center g-5 flex-lg-row-reverse">
+
+                <div class="col-lg-6">
+                    <div class="service-image">
+                        <img src="image.jpg" class="img-fluid" alt="Local Sightseeing Service">
+                        <span class="image-badge">City Tours</span>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <span class="service-tag">🌆 Explore the City</span>
+                    <h2 class="service-title mt-3">Local Sightseeing</h2>
+
+                    <p class="service-desc mt-3">
+                        Explore nearby attractions comfortably with our local sightseeing
+                        packages. Perfect for one-day trips, city tours, and weekend outings.
+                    </p>
+
+                    <ul class="service-features mt-4">
+                        <li><i class="bi bi-check-circle-fill"></i> Flexible hourly packages</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Knowledgeable drivers</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Customizable routes</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Affordable pricing</li>
+                    </ul>
+
+                    <div class="service-ideal mt-4">
+                        <h6>Ideal For:</h6>
+                        <span>City Tours</span>
+                        <span>Temple Visits</span>
+                        <span>Shopping Trips</span>
+                        <span>Family Outings</span>
+                    </div>
+
+                    <div class="service-cta mt-4">
+                        <a href="tel:9999029051" class="btn btn-primary btn-lg me-3 mb-2">Call Now</a>
+                        <a href="https://wa.me/919999029051" class="btn btn-outline-primary btn-lg mb-2">WhatsApp</a>
+                    </div>
+
+                </div>
+            </div>
         </div>
     </section>
 
