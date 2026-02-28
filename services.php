@@ -42,7 +42,7 @@
                         <a href="tel:9999029051" class="btn btn-primary btn-lg me-3 mb-3">
                             <i class="bi bi-telephone-fill"></i> Call Now
                         </a>
-                        <a href="https://wa.me/919999029051" class="btn btn-outline-light btn-lg mb-3">
+                        <a href="https://wa.me/919999029051?text=I%20need%20Tempo%20Traveller%20service" class="btn btn-outline-light btn-lg mb-3">
                             <i class="bi bi-whatsapp"></i> WhatsApp Us
                         </a>
                     </div>
@@ -114,7 +114,7 @@
                         <p>
                             Professional transport solutions for meetings, events, and employee travel needs.
                         </p>
-                        <a href="#" class="service-link">
+                        <a href="#corporateService" class="service-link">
                             Explore Service <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
@@ -129,7 +129,7 @@
                         <p>
                             Perfect vehicles for family trips, friends tours, and group travel adventures.
                         </p>
-                        <a href="#" class="service-link">
+                        <a href="#groupTourService" class="service-link">
                             Explore Service <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
@@ -144,7 +144,7 @@
                         <p>
                             On-time pickup & drop service ensuring a stress-free airport commute.
                         </p>
-                        <a href="#" class="service-link">
+                        <a href="#airportService" class="service-link">
                             Explore Service <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
@@ -159,7 +159,7 @@
                         <p>
                             Elegant and spacious vehicles for weddings, parties, and special occasions.
                         </p>
-                        <a href="#" class="service-link">
+                        <a href="#weddingService" class="service-link">
                             Explore Service <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
@@ -174,7 +174,7 @@
                         <p>
                             Explore nearby attractions comfortably with flexible local tour packages.
                         </p>
-                        <a href="#" class="service-link">
+                        <a href="#localService" class="service-link">
                             Explore Service <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
@@ -222,22 +222,18 @@
 
                     <div class="service-cta mt-4">
                         <div class="cta-buttons">
-
                             <a href="tel:9999029051" class="cta-btn call-btn">
                                 <i class="bi bi-telephone-fill"></i>
                                 <span>Call</span>
                             </a>
-
                             <a href="/contact" class="cta-btn book-btn">
                                 <i class="bi bi-calendar-check"></i>
                                 <span>Book</span>
                             </a>
-
-                            <a href="https://wa.me/919999029051" class="cta-btn whatsapp-btn">
+                            <a href="https://wa.me/919999029051?text=I%20need%20Tempo%20Traveller%20service" class="cta-btn whatsapp-btn">
                                 <i class="bi bi-whatsapp"></i>
                                 <span>WhatsApp</span>
                             </a>
-
                         </div>
                     </div>
                 </div>
@@ -283,12 +279,20 @@
                     </div>
 
                     <div class="service-cta mt-4">
-                        <a href="tel:9999029051" class="btn btn-primary btn-lg me-3 mb-2">
-                            Call Now
-                        </a>
-                        <a href="https://wa.me/919999029051" class="btn btn-outline-primary btn-lg mb-2">
-                            WhatsApp
-                        </a>
+                        <div class="cta-buttons">
+                            <a href="tel:9999029051" class="cta-btn call-btn">
+                                <i class="bi bi-telephone-fill"></i>
+                                <span>Call</span>
+                            </a>
+                            <a href="/contact" class="cta-btn book-btn">
+                                <i class="bi bi-calendar-check"></i>
+                                <span>Book</span>
+                            </a>
+                            <a href="https://wa.me/919999029051?text=I%20need%20Tempo%20Traveller%20service" class="cta-btn whatsapp-btn">
+                                <i class="bi bi-whatsapp"></i>
+                                <span>WhatsApp</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
 
@@ -334,7 +338,7 @@
 
                     <div class="service-cta mt-4">
                         <a href="tel:9999029051" class="btn btn-primary btn-lg me-3 mb-2">Call Now</a>
-                        <a href="https://wa.me/919999029051" class="btn btn-outline-primary btn-lg mb-2">WhatsApp</a>
+                        <a href="https://wa.me/919999029051?text=I%20need%20Tempo%20Traveller%20service" class="btn btn-outline-primary btn-lg mb-2">WhatsApp</a>
                     </div>
 
                 </div>
@@ -379,7 +383,7 @@
 
                     <div class="service-cta mt-4">
                         <a href="tel:9999029051" class="btn btn-primary btn-lg me-3 mb-2">Call Now</a>
-                        <a href="https://wa.me/919999029051" class="btn btn-outline-primary btn-lg mb-2">WhatsApp</a>
+                        <a href="https://wa.me/919999029051?text=I%20need%20Tempo%20Traveller%20service" class="btn btn-outline-primary btn-lg mb-2">WhatsApp</a>
                     </div>
 
                 </div>
@@ -424,7 +428,7 @@
 
                     <div class="service-cta mt-4">
                         <a href="tel:9999029051" class="btn btn-primary btn-lg me-3 mb-2">Call Now</a>
-                        <a href="https://wa.me/919999029051" class="btn btn-outline-primary btn-lg mb-2">WhatsApp</a>
+                        <a href="https://wa.me/919999029051?text=I%20need%20Tempo%20Traveller%20service" class="btn btn-outline-primary btn-lg mb-2">WhatsApp</a>
                     </div>
 
                 </div>
@@ -469,7 +473,7 @@
 
                     <div class="service-cta mt-4">
                         <a href="tel:9999029051" class="btn btn-primary btn-lg me-3 mb-2">Call Now</a>
-                        <a href="https://wa.me/919999029051" class="btn btn-outline-primary btn-lg mb-2">WhatsApp</a>
+                        <a href="https://wa.me/919999029051?text=I%20need%20Tempo%20Traveller%20service" class="btn btn-outline-primary btn-lg mb-2">WhatsApp</a>
                     </div>
 
                 </div>
@@ -566,223 +570,11 @@
         </div>
     </section>
 
-    <section class="process-section py-5">
-        <div class="container">
+    <?php include 'assets/php/sections/home_process.php'; ?>
 
-            <!-- Heading -->
-            <div class="text-center mb-5">
-                <span class="badge bg-warning-subtle text-warning px-4 py-2 rounded-pill">
-                    <i class="bi bi-diagram-3-fill"></i> How It Works
-                </span>
-                <h2 class="fw-bold mt-3">
-                    Simple & Transparent Booking Process
-                </h2>
-                <p class="text-muted mt-2">
-                    Share your travel requirement and we’ll handle the rest
-                </p>
-            </div>
+    <?php include 'assets/php/sections/home_usp.php'; ?>
 
-            <!-- Process Steps -->
-            <div class="row g-4">
-
-                <!-- Step 1 -->
-                <div class="col-lg-3 col-md-6">
-                    <div class="process-card h-100">
-                        <div class="step-circle">01</div>
-                        <div class="process-icon">
-                            <i class="bi bi-chat-dots-fill"></i>
-                        </div>
-                        <h5>Share Your Requirement</h5>
-                        <p>
-                            Fill the enquiry form or contact us via
-                            call or WhatsApp with your trip details.
-                        </p>
-                    </div>
-                </div>
-
-                <!-- Step 2 -->
-                <div class="col-lg-3 col-md-6">
-                    <div class="process-card h-100">
-                        <div class="step-circle">02</div>
-                        <div class="process-icon">
-                            <i class="bi bi-file-text-fill"></i>
-                        </div>
-                        <h5>Get Best Quotation</h5>
-                        <p>
-                            Our team checks availability and sends you
-                            the best price with complete details.
-                        </p>
-                    </div>
-                </div>
-
-                <!-- Step 3 -->
-                <div class="col-lg-3 col-md-6">
-                    <div class="process-card h-100">
-                        <div class="step-circle">03</div>
-                        <div class="process-icon">
-                            <i class="bi bi-wallet2"></i>
-                        </div>
-                        <h5>Pay Advance & Confirm</h5>
-                        <p>
-                            Pay a small advance amount to confirm
-                            your vehicle booking.
-                        </p>
-                    </div>
-                </div>
-
-                <!-- Step 4 -->
-                <div class="col-lg-3 col-md-6">
-                    <div class="process-card h-100">
-                        <div class="step-circle">04</div>
-                        <div class="process-icon">
-                            <i class="bi bi-bus-front-fill"></i>
-                        </div>
-                        <h5>Vehicle Reserved</h5>
-                        <p>
-                            Your tempo traveller is reserved and ready.
-                            Enjoy a safe and comfortable journey.
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-
-            <p class="text-center text-muted mt-4 small">
-                ✔ No hidden charges &nbsp;|&nbsp;
-                ✔ Flexible payment options &nbsp;|&nbsp;
-                ✔ Booking confirmation on advance payment
-            </p>
-
-        </div>
-    </section>
-
-    <section class="usp-section py-5">
-        <div class="container">
-
-            <!-- Heading -->
-            <div class="row align-items-center mb-5">
-                <div class="col-lg-6">
-                    <span class="badge bg-success-subtle text-success px-4 py-2 rounded-pill">
-                        <i class="bi bi-patch-check-fill"></i> Why Choose Us
-                    </span>
-                    <h2 class="fw-bold mt-3">
-                        Trusted Tempo Traveller Service<br>
-                        Across Delhi NCR
-                    </h2>
-                    <p class="text-muted mt-3">
-                        We don’t just provide vehicles, we deliver comfort,
-                        safety and peace of mind for every journey.
-                    </p>
-                </div>
-
-                <div class="col-lg-6 text-lg-end mt-4 mt-lg-0">
-                    <a href="#bookingModal" data-bs-toggle="modal" class="btn btn-premium">
-                        <i class="bi bi-bus-front-fill"></i> Book Your Ride Now
-                    </a>
-                </div>
-            </div>
-
-            <!-- USP Cards -->
-            <div class="row g-4">
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="usp-card h-100">
-                        <div class="usp-icon">
-                            <i class="bi bi-shield-check"></i>
-                        </div>
-                        <h5>Safe & Sanitized Vehicles</h5>
-                        <p>
-                            Regularly sanitized, well-maintained vehicles
-                            for a worry-free and hygienic travel experience.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="usp-card h-100">
-                        <div class="usp-icon">
-                            <i class="bi bi-person-badge-fill"></i>
-                        </div>
-                        <h5>Experienced Drivers</h5>
-                        <p>
-                            Verified, professional and polite drivers
-                            with excellent route knowledge.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="usp-card h-100">
-                        <div class="usp-icon">
-                            <i class="bi bi-cash-stack"></i>
-                        </div>
-                        <h5>Transparent Pricing</h5>
-                        <p>
-                            No hidden charges. What you see is what you pay —
-                            fair and competitive pricing.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="usp-card h-100">
-                        <div class="usp-icon">
-                            <i class="bi bi-clock-history"></i>
-                        </div>
-                        <h5>24/7 Availability</h5>
-                        <p>
-                            Book anytime, anywhere. We are always ready
-                            to serve your travel needs.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="usp-card h-100">
-                        <div class="usp-icon">
-                            <i class="bi bi-geo-alt-fill"></i>
-                        </div>
-                        <h5>All India Permit</h5>
-                        <p>
-                            Travel freely across states with our fully
-                            permitted tempo travellers.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="usp-card h-100">
-                        <div class="usp-icon">
-                            <i class="bi bi-star-fill"></i>
-                        </div>
-                        <h5>10K+ Happy Customers</h5>
-                        <p>
-                            Trusted by families, corporates, and travel
-                            partners across NCR.
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <section class="lux-testimonial py-5">
-        <div class="container">
-
-            <div class="text-center mb-5">
-                <span class="lux-pill">
-                    <i class="bi bi-shield-check"></i> Trusted Reviews
-                </span>
-                <h2 class="fw-bold mt-3">Customer Love & Experiences</h2>
-                <p class="text-muted">Real feedback from our customers</p>
-            </div>
-
-            <!-- Reviews injected here -->
-            <div class="row g-4" id="reviewsContainer"></div>
-
-        </div>
-    </section>
+    <?php include 'assets/php/components/review.php'; ?>
 
     <section class="faq-section py-5">
         <div class="container">
@@ -977,7 +769,7 @@
                         <a href="tel:9999029051" class="btn btn-outline-primary rounded-pill me-2 hero-btn">
                             <i class="bi bi-telephone-fill"></i> Call Now
                         </a>
-                        <a href="https://wa.me/919999029051" target="_blank"
+                        <a href="https://wa.me/919999029051?text=I%20need%20Tempo%20Traveller%20service" target="_blank"
                             class="btn btn-success rounded-pill shadow hero-btn">
                             <i class="bi bi-whatsapp"></i> WhatsApp Us
                         </a>
@@ -989,176 +781,13 @@
         </div>
     </section>
 
-    <section class="contact-section py-5">
-        <div class="container">
+    <?php include 'assets/php/sections/home_contact.php'; ?>
 
-            <!-- Heading -->
-            <div class="text-center mb-5">
-                <span class="badge bg-primary-subtle text-primary px-4 py-2 rounded-pill">
-                    <i class="bi bi-headset"></i> Contact & Booking
-                </span>
-                <h2 class="fw-bold mt-3">Get Instant Quotation</h2>
-                <p class="text-muted mt-2">
-                    Call, WhatsApp or share your requirement to get best pricing
-                </p>
-            </div>
+    <?php include 'assets/php/layout/footer.php'; ?>
 
-            <div class="row g-4 align-items-stretch">
+    <?php include 'assets/php/layout/sticky-cta.php'; ?>
 
-                <!-- Contact Info -->
-                <div class="col-lg-5">
-                    <div class="contact-info h-100">
-
-                        <h4 class="fw-semibold mb-4">
-                            Talk to Travel Expert
-                        </h4>
-
-                        <div class="contact-item">
-                            <div class="contact-icon bg-primary">
-                                <i class="bi bi-telephone-fill"></i>
-                            </div>
-                            <div>
-                                <span>Call Us</span>
-                                <p><a href="tel:9999029051">+91 99990 29051</a></p>
-                            </div>
-                        </div>
-
-                        <div class="contact-item">
-                            <div class="contact-icon bg-success">
-                                <i class="bi bi-whatsapp"></i>
-                            </div>
-                            <div>
-                                <span>WhatsApp</span>
-                                <p><a href="https://wa.me/919999029051" target="_blank">
-                                        Chat on WhatsApp
-                                    </a></p>
-                            </div>
-                        </div>
-
-                        <div class="contact-item">
-                            <div class="contact-icon bg-warning">
-                                <i class="bi bi-clock-fill"></i>
-                            </div>
-                            <div>
-                                <span>Availability</span>
-                                <p>24×7 Booking Support</p>
-                            </div>
-                        </div>
-
-                        <hr class="my-4">
-
-                        <ul class="contact-points">
-                            <li><i class="bi bi-check-circle-fill"></i> Instant response</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Transparent pricing</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Verified drivers</li>
-                            <li><i class="bi bi-check-circle-fill"></i> All India permit vehicles</li>
-                        </ul>
-
-                    </div>
-                </div>
-
-                <!-- WhatsApp Form -->
-                <div class="col-lg-7">
-                    <div class="contact-form h-100">
-
-                        <h4 class="fw-semibold mb-4">
-                            Share Your Travel Details
-                        </h4>
-
-                        <form id="contactFormtoWhatsApp">
-                            <div class="row g-3">
-
-                                <div class="col-md-6">
-                                    <input type="text" id="name" class="form-control" placeholder="Your Name *"
-                                        required>
-                                </div>
-
-                                <div class="col-md-6">
-                                    <input type="tel" id="mobile" class="form-control" placeholder="Mobile Number *"
-                                        required>
-                                </div>
-
-                                <div class="col-md-6">
-                                    <input type="text" id="pickup" class="form-control" placeholder="Pickup Location *"
-                                        required>
-                                </div>
-
-                                <div class="col-md-6">
-                                    <input type="text" id="destination" class="form-control" placeholder="Destination *"
-                                        required>
-                                </div>
-
-                                <div class="col-md-6">
-                                    <label class="form-label small text-muted">Start Date</label>
-                                    <input type="date" id="startDate" class="form-control" required>
-                                </div>
-
-                                <div class="col-md-6">
-                                    <label class="form-label small text-muted">End Date</label>
-                                    <input type="date" id="endDate" class="form-control" required>
-                                </div>
-
-                                <div class="col-md-12">
-                                    <select id="passengers" class="form-select" required>
-                                        <option value="">Passengers *</option>
-                                        <option>9 Seater</option>
-                                        <option>12 Seater</option>
-                                        <option>15 Seater</option>
-                                        <option>17 Seater</option>
-                                        <option>20 Seater</option>
-                                    </select>
-                                </div>
-
-                                <div class="col-md-12">
-                                    <textarea id="message" class="form-control message-textarea" rows="3"
-                                        placeholder="Briefly describe your requirement"></textarea>
-                                </div>
-
-                                <div class="col-12 mt-3">
-                                    <button type="submit" class="btn btn-success w-100 hero-btn">
-                                        <i class="bi bi-whatsapp"></i>
-                                        Get Quotation on WhatsApp
-                                    </button>
-                                </div>
-
-                            </div>
-                        </form>
-
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <footer id="site-footer"></footer>
-
-    <div class="sticky-cta" id="stickyCTA">
-
-        <!-- Call -->
-        <a href="tel:9999029051" class="cta-btn call">
-            <i class="bi bi-telephone"></i>
-            <span>Call</span>
-        </a>
-
-        <!-- Form -->
-        <button class="cta-btn form" data-bs-toggle="modal" data-bs-target="#bookingModal">
-            <i class="bi bi-calendar-check"></i>
-            <span>Form</span>
-        </button>
-
-        <!-- WhatsApp -->
-        <a href="https://wa.me/919999029051" target="_blank" class="cta-btn whatsapp">
-            <i class="bi bi-whatsapp"></i>
-            <span>WhatsApp</span>
-        </a>
-
-    </div>
-
-    <!-- back to top button -->
-    <button id="backToTop" class="back-to-top">
-        <i class="bi bi-arrow-up"></i>
-    </button>
+    <?php include 'assets/php/layout/back-to-top.php'; ?>
 
     <script type="module" src="assets/js/pages/services.js"></script>
 </body>

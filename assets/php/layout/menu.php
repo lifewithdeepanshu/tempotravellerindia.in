@@ -3,7 +3,7 @@
 
         <!-- Logo -->
         <a class="navbar-brand" href="/">
-            <img src="/logo.jpg" alt="Tempo Traveller India" class="logo">
+            <img src="/assets/image/logo.jpg" alt="Tempo Traveller India" class="JBL Travels logo">
         </a>
 
         <!-- Mobile Toggle (No Border) -->
@@ -24,7 +24,7 @@
 <!-- Mobile Menu Offcanvas -->
 <div class="offcanvas offcanvas-start" id="mobileMenu">
     <div class="offcanvas-header">
-        <img src="/logo.jpg" class="logo">
+        <img src="/assets/image/logo.jpg" class="JBL Travels logo">
         <button class="btn-close shadow-none" data-bs-dismiss="offcanvas"></button>
     </div>
     <div class="offcanvas-body" id="mobileMenuContainer"></div>

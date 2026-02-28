@@ -1,51 +1,49 @@
-<?php
-include 'assets/php/core/core.php';
-?>
+<?php include 'assets/php/core/core.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
 
-  <!-- Basic Setup -->
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Basic Setup -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Primary SEO -->
-  <title>Tempo Traveller on Rent in Delhi NCR | 9, 12, 16, 20 Seater Booking</title>
+    <!-- Primary SEO -->
+    <title>Tempo Traveller on Rent in Delhi NCR | 9, 12, 16, 20 Seater Booking</title>
 
-  <meta name="description" content="Book tempo traveller on rent in Delhi, Noida, Gurgaon, Ghaziabad & Faridabad. 9, 12, 16, 20 seater luxury tempo traveller with driver for local & outstation trips at best price.">
+    <meta name="description"
+        content="Book tempo traveller on rent in Delhi, Noida, Gurgaon, Ghaziabad & Faridabad. 9, 12, 16, 20 seater luxury tempo traveller with driver for local & outstation trips at best price.">
 
-  <meta name="robots" content="index, follow">
-  <link rel="canonical" href="<?php echo $domainName; ?>/">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="<?php echo $domainName; ?>/">
 
-  <!-- Author & Branding -->
-  <meta name="author" content="Your Brand Name">
-  <meta name="publisher" content="Your Brand Name">
+    <!-- Author & Branding -->
+    <meta name="author" content="JBL Travels">
+    <meta name="publisher" content="JBL Travels">
 
-  <!-- Open Graph (Facebook, WhatsApp, LinkedIn) -->
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Best Tempo Traveller in Delhi NCR | Luxury & Affordable Rental">
-  <meta property="og:description" content="Hire 9 to 20 seater tempo traveller in Delhi NCR with professional driver. Perfect for family trips, weddings & corporate tours.">
-  <meta property="og:url" content="<?php echo $domainName; ?>">
-  <meta property="og:image" content="<?php echo $domainName; ?>/assets/images/home-hero.jpg">
+    <!-- Open Graph (Facebook, WhatsApp, LinkedIn) -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Best Tempo Traveller in Delhi NCR | Luxury & Affordable Rental">
+    <meta property="og:description"
+        content="Hire 9 to 20 seater tempo traveller in Delhi NCR with professional driver. Perfect for family trips, weddings & corporate tours.">
+    <meta property="og:url" content="<?php echo $domainName; ?>">
+    <meta property="og:image" content="<?php echo $domainName; ?>/assets/images/home-hero.jpg">
 
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Tempo Traveller Rental in Delhi NCR">
-  <meta name="twitter:description" content="Affordable luxury tempo traveller booking for outstation & local trips.">
-  <meta name="twitter:image" content="<?php echo $domainName; ?>/assets/images/home-hero.jpg">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Tempo Traveller Rental in Delhi NCR">
+    <meta name="twitter:description" content="Affordable luxury tempo traveller booking for outstation & local trips.">
+    <meta name="twitter:image" content="<?php echo $domainName; ?>/assets/images/home-hero.jpg">
 
-  <!-- Favicon -->
-  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <?php include 'assets/php/core/logo.php'; ?>
 
-  <!-- Performance -->
-   <link rel="icon" href="/favicon.ico" />
+    <!-- Performance -->
     <link rel="preload" href="/assets/css/pages/index.css" as="style">
     <link rel="stylesheet" href="/assets/css/pages/index.css">
 
-  <!-- Structured Data (Local Business + Service Schema) -->
-  <script type="application/ld+json">
+    <!-- Structured Data (Local Business + Service Schema) -->
+    <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
@@ -83,7 +81,7 @@ include 'assets/php/core/core.php';
 
     <?php include 'assets/php/layout/menu.php'; ?>
 
-    <section class="hero-section">
+    <header class="hero-section">
         <div class="container">
             <div class="row align-items-center hero-inner">
 
@@ -120,12 +118,12 @@ include 'assets/php/core/core.php';
 
                 <!-- IMAGE -->
                 <div class="col-lg-5 d-none d-lg-flex justify-content-center">
-                    <img src="image.jpg" alt="Luxury Tempo Traveller" class="hero-image">
+                    <img src="/assets/image/luxury-tempo-traveller.jpg" alt="Luxury Tempo Traveller" class="hero-image">
                 </div>
 
             </div>
         </div>
-    </section>
+    </header>
 
     <section class="highlights-bar">
         <div class="container">
@@ -246,7 +244,7 @@ include 'assets/php/core/core.php';
                             Spacious and luxury tempo travellers for family trips, picnics,
                             and group outings.
                         </p>
-                        <a href="#" class="service-btn">
+                        <a href="/services#groupTourService" class="service-btn">
                             Explore More <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
@@ -262,7 +260,7 @@ include 'assets/php/core/core.php';
                             Professional transport solutions for meetings, events,
                             and office outings.
                         </p>
-                        <a href="#" class="service-btn">
+                        <a href="/services#corporateService" class="service-btn">
                             Explore More <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
@@ -278,7 +276,7 @@ include 'assets/php/core/core.php';
                             Reliable tempo travellers for weddings, guests pickup,
                             and special occasions.
                         </p>
-                        <a href="#" class="service-btn">
+                        <a href="/services#weddingService" class="service-btn">
                             Explore More <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
@@ -294,7 +292,7 @@ include 'assets/php/core/core.php';
                             Comfortable long-distance travel for hill stations,
                             religious & leisure tours.
                         </p>
-                        <a href="#" class="service-btn">
+                        <a href="/services#outstationService" class="service-btn">
                             Explore More <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
@@ -310,7 +308,7 @@ include 'assets/php/core/core.php';
                             On-time and hassle-free airport pickup and drop services
                             across NCR.
                         </p>
-                        <a href="#" class="service-btn">
+                        <a href="/services#airportService" class="service-btn">
                             Explore More <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
@@ -321,12 +319,12 @@ include 'assets/php/core/core.php';
                         <div class="icon-box">
                             <i class="bi bi-shield-check"></i>
                         </div>
-                        <h5>Safe & Sanitized Travel</h5>
+                        <h5>City Tours</h5>
                         <p>
-                            Well-maintained, sanitized vehicles with experienced
-                            and verified drivers.
+                            Explore nearby attractions comfortably with our local sightseeing
+                            packages
                         </p>
-                        <a href="#" class="service-btn">
+                        <a href="/services#localService" class="service-btn">
                             Explore More <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
@@ -336,244 +334,13 @@ include 'assets/php/core/core.php';
         </div>
     </section>
 
-    <section class="usp-section py-5">
-        <div class="container">
+    <?php include 'assets/php/sections/home_usp.php'; ?>
 
-            <!-- Heading -->
-            <div class="row align-items-center mb-5">
-                <div class="col-lg-6">
-                    <span class="badge bg-success-subtle text-success px-4 py-2 rounded-pill">
-                        <i class="bi bi-patch-check-fill"></i> Why Choose Us
-                    </span>
-                    <h2 class="fw-bold mt-3">
-                        Trusted Tempo Traveller Service<br>
-                        Across Delhi NCR
-                    </h2>
-                    <p class="text-muted mt-3">
-                        We don’t just provide vehicles, we deliver comfort,
-                        safety and peace of mind for every journey.
-                    </p>
-                </div>
+    <?php include 'assets/php/sections/home_process.php'; ?>
 
-                <div class="col-lg-6 text-lg-end mt-4 mt-lg-0">
-                    <a href="#bookingModal" data-bs-toggle="modal" class="btn btn-premium">
-                        <i class="bi bi-bus-front-fill"></i> Book Your Ride Now
-                    </a>
-                </div>
-            </div>
+    <?php include 'assets/php/components/season-best.php'; ?>
 
-            <!-- USP Cards -->
-            <div class="row g-4">
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="usp-card h-100">
-                        <div class="usp-icon">
-                            <i class="bi bi-shield-check"></i>
-                        </div>
-                        <h5>Safe & Sanitized Vehicles</h5>
-                        <p>
-                            Regularly sanitized, well-maintained vehicles
-                            for a worry-free and hygienic travel experience.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="usp-card h-100">
-                        <div class="usp-icon">
-                            <i class="bi bi-person-badge-fill"></i>
-                        </div>
-                        <h5>Experienced Drivers</h5>
-                        <p>
-                            Verified, professional and polite drivers
-                            with excellent route knowledge.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="usp-card h-100">
-                        <div class="usp-icon">
-                            <i class="bi bi-cash-stack"></i>
-                        </div>
-                        <h5>Transparent Pricing</h5>
-                        <p>
-                            No hidden charges. What you see is what you pay —
-                            fair and competitive pricing.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="usp-card h-100">
-                        <div class="usp-icon">
-                            <i class="bi bi-clock-history"></i>
-                        </div>
-                        <h5>24/7 Availability</h5>
-                        <p>
-                            Book anytime, anywhere. We are always ready
-                            to serve your travel needs.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="usp-card h-100">
-                        <div class="usp-icon">
-                            <i class="bi bi-geo-alt-fill"></i>
-                        </div>
-                        <h5>All India Permit</h5>
-                        <p>
-                            Travel freely across states with our fully
-                            permitted tempo travellers.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="usp-card h-100">
-                        <div class="usp-icon">
-                            <i class="bi bi-star-fill"></i>
-                        </div>
-                        <h5>1000+ Happy Customers</h5>
-                        <p>
-                            Trusted by families, corporates, and travel
-                            partners across NCR.
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <section class="process-section py-5">
-        <div class="container">
-
-            <!-- Heading -->
-            <div class="text-center mb-5">
-                <span class="badge bg-warning-subtle text-warning px-4 py-2 rounded-pill">
-                    <i class="bi bi-diagram-3-fill"></i> How It Works
-                </span>
-                <h2 class="fw-bold mt-3">
-                    Simple & Transparent Booking Process
-                </h2>
-                <p class="text-muted mt-2">
-                    Share your travel requirement and we’ll handle the rest
-                </p>
-            </div>
-
-            <!-- Process Steps -->
-            <div class="row g-4">
-
-                <!-- Step 1 -->
-                <div class="col-lg-3 col-md-6">
-                    <div class="process-card h-100">
-                        <div class="step-circle">01</div>
-                        <div class="process-icon">
-                            <i class="bi bi-chat-dots-fill"></i>
-                        </div>
-                        <h5>Share Your Requirement</h5>
-                        <p>
-                            Fill the enquiry form or contact us via
-                            call or WhatsApp with your trip details.
-                        </p>
-                    </div>
-                </div>
-
-                <!-- Step 2 -->
-                <div class="col-lg-3 col-md-6">
-                    <div class="process-card h-100">
-                        <div class="step-circle">02</div>
-                        <div class="process-icon">
-                            <i class="bi bi-file-text-fill"></i>
-                        </div>
-                        <h5>Get Best Quotation</h5>
-                        <p>
-                            Our team checks availability and sends you
-                            the best price with complete details.
-                        </p>
-                    </div>
-                </div>
-
-                <!-- Step 3 -->
-                <div class="col-lg-3 col-md-6">
-                    <div class="process-card h-100">
-                        <div class="step-circle">03</div>
-                        <div class="process-icon">
-                            <i class="bi bi-wallet2"></i>
-                        </div>
-                        <h5>Pay Advance & Confirm</h5>
-                        <p>
-                            Pay a small advance amount to confirm
-                            your vehicle booking.
-                        </p>
-                    </div>
-                </div>
-
-                <!-- Step 4 -->
-                <div class="col-lg-3 col-md-6">
-                    <div class="process-card h-100">
-                        <div class="step-circle">04</div>
-                        <div class="process-icon">
-                            <i class="bi bi-bus-front-fill"></i>
-                        </div>
-                        <h5>Vehicle Reserved</h5>
-                        <p>
-                            Your tempo traveller is reserved and ready.
-                            Enjoy a safe and comfortable journey.
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-
-            <p class="text-center text-muted mt-4 small">
-                ✔ No hidden charges &nbsp;|&nbsp;
-                ✔ Flexible payment options &nbsp;|&nbsp;
-                ✔ Booking confirmation on advance payment
-            </p>
-
-        </div>
-    </section>
-
-
-    <section class="season-best">
-        <div class="container">
-
-            <!-- Heading -->
-            <div class="text-center mb-5">
-                <span class="badge bg-primary-subtle text-primary px-3 py-2 rounded-pill">
-                    <i class="bi bi-geo-alt-fill"></i> Seasonal Picks
-                </span>
-                <h2 class="mt-3">Best Destinations for This Season</h2>
-                <p class="text-muted">
-                    Comfortable weather, scenic routes & perfect for tempo traveller journeys
-                </p>
-            </div>
-
-            <div class="row g-4" id="seasonDestinations"></div>
-
-        </div>
-    </section>
-
-
-    <section class="lux-testimonial py-5">
-        <div class="container">
-
-            <div class="text-center mb-5">
-                <span class="lux-pill">
-                    <i class="bi bi-shield-check"></i> Trusted Reviews
-                </span>
-                <h2 class="fw-bold mt-3">Customer Love & Experiences</h2>
-                <p class="text-muted">Real feedback from our customers</p>
-            </div>
-
-            <!-- Reviews injected here -->
-            <div class="row g-4" id="reviewsContainer"></div>
-
-        </div>
-    </section>
+    <?php include 'assets/php/components/review.php'; ?>
 
     <section class="faq-section py-5">
         <div class="container">
@@ -780,178 +547,13 @@ include 'assets/php/core/core.php';
         </div>
     </section>
 
-    <section class="contact-section py-5">
-        <div class="container">
+    <?php include 'assets/php/sections/home_contact.php'; ?>
 
-            <!-- Heading -->
-            <div class="text-center mb-5">
-                <span class="badge bg-primary-subtle text-primary px-4 py-2 rounded-pill">
-                    <i class="bi bi-headset"></i> Contact & Booking
-                </span>
-                <h2 class="fw-bold mt-3">Get Instant Quotation</h2>
-                <p class="text-muted mt-2">
-                    Call, WhatsApp or share your requirement to get best pricing
-                </p>
-            </div>
+    <?php include 'assets/php/layout/footer.php'; ?>
 
-            <div class="row g-4 align-items-stretch">
+    <?php include 'assets/php/layout/sticky-cta.php'; ?>
 
-                <!-- Contact Info -->
-                <div class="col-lg-5">
-                    <div class="contact-info h-100">
-
-                        <h4 class="fw-semibold mb-4">
-                            Talk to Travel Expert
-                        </h4>
-
-                        <div class="contact-item">
-                            <div class="contact-icon bg-primary">
-                                <i class="bi bi-telephone-fill"></i>
-                            </div>
-                            <div>
-                                <span>Call Us</span>
-                                <p><a href="tel:9999029051">+91 99990 29051</a></p>
-                            </div>
-                        </div>
-
-                        <div class="contact-item">
-                            <div class="contact-icon bg-success">
-                                <i class="bi bi-whatsapp"></i>
-                            </div>
-                            <div>
-                                <span>WhatsApp</span>
-                                <p><a href="https://wa.me/919999029051" target="_blank">
-                                        Chat on WhatsApp
-                                    </a></p>
-                            </div>
-                        </div>
-
-                        <div class="contact-item">
-                            <div class="contact-icon bg-warning">
-                                <i class="bi bi-clock-fill"></i>
-                            </div>
-                            <div>
-                                <span>Availability</span>
-                                <p>24×7 Booking Support</p>
-                            </div>
-                        </div>
-
-                        <hr class="my-4">
-
-                        <ul class="contact-points">
-                            <li><i class="bi bi-check-circle-fill"></i> Instant response</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Transparent pricing</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Verified drivers</li>
-                            <li><i class="bi bi-check-circle-fill"></i> All India permit vehicles</li>
-                        </ul>
-
-                    </div>
-                </div>
-
-                <!-- WhatsApp Form -->
-                <div class="col-lg-7">
-                    <div class="contact-form h-100">
-
-                        <h4 class="fw-semibold mb-4">
-                            Share Your Travel Details
-                        </h4>
-
-                        <form id="contactFormtoWhatsApp">
-                            <div class="row g-3">
-
-                                <div class="col-md-6">
-                                    <input type="text" id="name" class="form-control" placeholder="Your Name *"
-                                        required>
-                                </div>
-
-                                <div class="col-md-6">
-                                    <input type="tel" id="mobile" class="form-control" placeholder="Mobile Number *"
-                                        required>
-                                </div>
-
-                                <div class="col-md-6">
-                                    <input type="text" id="pickup" class="form-control" placeholder="Pickup Location *"
-                                        required>
-                                </div>
-
-                                <div class="col-md-6">
-                                    <input type="text" id="destination" class="form-control" placeholder="Destination *"
-                                        required>
-                                </div>
-
-                                <div class="col-md-6">
-                                    <label class="form-label small text-muted">Start Date</label>
-                                    <input type="date" id="startDate" class="form-control" required>
-                                </div>
-
-                                <div class="col-md-6">
-                                    <label class="form-label small text-muted">End Date</label>
-                                    <input type="date" id="endDate" class="form-control" required>
-                                </div>
-
-                                <div class="col-md-12">
-                                    <select id="passengers" class="form-select" required>
-                                        <option value="">Passengers *</option>
-                                        <option>9 Seater</option>
-                                        <option>12 Seater</option>
-                                        <option>15 Seater</option>
-                                        <option>17 Seater</option>
-                                        <option>20 Seater</option>
-                                    </select>
-                                </div>
-
-                                <div class="col-md-12">
-                                    <textarea id="message" class="form-control message-textarea" rows="3"
-                                        placeholder="Briefly describe your requirement"></textarea>
-                                </div>
-
-                                <div class="col-12 mt-3">
-                                    <button type="submit" class="btn btn-success w-100 hero-btn">
-                                        <i class="bi bi-whatsapp"></i>
-                                        Get Quotation on WhatsApp
-                                    </button>
-                                </div>
-
-                            </div>
-                        </form>
-
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-
-    <footer id="site-footer"></footer>
-
-
-    <div class="sticky-cta" id="stickyCTA">
-
-        <!-- Call -->
-        <a href="tel:9999029051" class="cta-btn call">
-            <i class="bi bi-telephone"></i>
-            <span>Call</span>
-        </a>
-
-        <!-- Form -->
-        <button class="cta-btn form" data-bs-toggle="modal" data-bs-target="#bookingModal">
-            <i class="bi bi-calendar-check"></i>
-            <span>Form</span>
-        </button>
-
-        <!-- WhatsApp -->
-        <a href="https://wa.me/919999029051" target="_blank" class="cta-btn whatsapp">
-            <i class="bi bi-whatsapp"></i>
-            <span>WhatsApp</span>
-        </a>
-
-    </div>
-
-    <!-- back to top button -->
-    <button id="backToTop" class="back-to-top">
-        <i class="bi bi-arrow-up"></i>
-    </button>
+    <?php include 'assets/php/layout/back-to-top.php'; ?>
 
     <script type="module" src="assets/js/pages/index.js"></script>
 </body>
